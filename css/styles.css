@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.memory-game {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.memory__pics {
+    display: flex;
+    height: 70vh;
+    width: 960px;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.img1 {
+    width: 250px;
+    height: 250px;
+    background-image: url("/memory-game/media/dog1.PNG");
+    background-repeat: no-repeat;
+}
+.img2 {
+    width: 250px;
+    height: 250px;
+    background-image: url("/memory-game/media/dog2.PNG");
+    background-repeat: no-repeat;
+}
+.img3 {
+    width: 250px;
+    height: 250px;
+    background-image: url("/memory-game/media/dog3.PNG");
+    background-repeat: no-repeat;
+}
+
+.img__fill {
+    background-color: green;
+    width: 250px;
+    height: 250px;
+}
